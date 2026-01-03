@@ -1,0 +1,57 @@
+body {background-image: url('image/Fon.avif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+.tekst {
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  padding: 1px;
+  background: linear-gradient(
+    90deg,
+    #00BFFF 0%,
+    #FFD700 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fon::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+li{  
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  padding: 1px;
+  background: linear-gradient(    
+    90deg,
+    #FF4500 0%,
+    #32CD32 100%  
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: #32CD32 2px solid;
+  margin: 10px;
+  padding: 10px;
+  
+}
+
+#pupa {
+    -webkit-text-fill-color: #FF4500;
+    color: #FF4500;
+    padding: 30px;
+    text-align: center;
+}
+
+#lupa {
+    padding: 30px;
+    text-align: center;
+}
