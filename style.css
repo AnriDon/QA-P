@@ -1,9 +1,9 @@
-body {background-image: url('image/Fon.avif');
+body {
+    background-image: url('image/Fon.avif');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-
 }
 
 .tekst {
